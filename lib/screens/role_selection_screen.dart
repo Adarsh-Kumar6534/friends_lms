@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'login_screen.dart'; // Make sure this file exists in your project
+import 'login_screen.dart'; 
 
 class RoleSelectionScreen extends StatelessWidget {
   const RoleSelectionScreen({super.key});
@@ -27,13 +27,13 @@ class RoleSelectionScreen extends StatelessWidget {
               Text(
                 'Who are you?',
                 style: GoogleFonts.inter(
-                  fontSize: 36, // Increased font size
+                  fontSize: 36, 
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
               const SizedBox(
-                  height: 32), // Increased spacing to move text higher
+                  height: 32), 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
