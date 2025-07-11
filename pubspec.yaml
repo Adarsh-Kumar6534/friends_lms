@@ -1,0 +1,36 @@
+name: friends_lms
+description: A beautifully crafted LMS Flutter app with stunning onboarding, role selection, and login screens.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
