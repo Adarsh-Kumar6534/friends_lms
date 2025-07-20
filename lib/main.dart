@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// Import all your screens
+
 import 'screens/welcome_screen.dart';
 import 'screens/dashboard.dart';
 import 'screens/courses_screen.dart';
@@ -11,7 +11,6 @@ import 'screens/assessments_screen.dart';
 import 'screens/analytics_screen.dart';
 import 'screens/calendar_screen.dart';
 
-// Route constants
 const String OVERVIEW_ROUTE = '/dashboard';
 const String COURSES_ROUTE = '/courses';
 const String FILE_MANAGER_ROUTE = '/file_manager';
