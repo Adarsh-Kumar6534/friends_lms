@@ -1,0 +1,52 @@
+{
+  "Computer Science": {
+    "1": [
+      {"question": "What does CPU stand for?", "options": ["Central Process Unit", "Central Processing Unit", "Computer Processing Unit", "Control Program Unit"], "answer": "Central Processing Unit"},
+      {"question": "Which language is primarily used for Android Development?", "options": ["Swift", "Python", "Kotlin", "C#"], "answer": "Kotlin"},
+      {"question": "What is RAM used for?", "options": ["Permanent storage", "Temporary storage", "Processing", "Networking"], "answer": "Temporary storage"},
+      {"question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlink Text Model", "Home Tool Markup Language"], "answer": "Hyper Text Markup Language"},
+      {"question": "Which is a version control system?", "options": ["Git", "Docker", "Kubernetes", "Jenkins"], "answer": "Git"},
+      {"question": "What is the purpose of an operating system?", "options": ["Web browsing", "Hardware management", "Code compilation", "Data analysis"], "answer": "Hardware management"},
+      {"question": "What is a variable in programming?", "options": ["A loop", "A function", "A storage location", "A constant"], "answer": "A storage location"},
+      {"question": "Which protocol is used for web browsing?", "options": ["FTP", "HTTP", "SMTP", "SSH"], "answer": "HTTP"},
+      {"question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Computer Style System", "Creative Style Syntax", "Coded Style Sheet"], "answer": "Cascading Style Sheets"},
+      {"question": "What is the binary representation of 5?", "options": ["101", "110", "100", "111"], "answer": "101"}
+    ],
+    "2": [
+      {"question": "What is Big O Notation used for?", "options": ["UI Design", "Memory Allocation", "Code Styling", "Algorithm Complexity"], "answer": "Algorithm Complexity"},
+      {"question": "What is a linked list?", "options": ["A database", "A data structure", "A programming language", "A file format"], "answer": "A data structure"},
+      {"question": "What does API stand for?", "options": ["Application Program Interface", "Advanced Program Integration", "Automated Process Interface", "Application Process Input"], "answer": "Application Program Interface"},
+      {"question": "What is recursion in programming?", "options": ["A loop", "A function calling itself", "A variable", "A class"], "answer": "A function calling itself"},
+      {"question": "Which sorting algorithm has O(n log n) average complexity?", "options": ["Bubble Sort", "Quick Sort", "Selection Sort", "Insertion Sort"], "answer": "Quick Sort"},
+      {"question": "What is a stack in data structures?", "options": ["LIFO structure", "FIFO structure", "Key-value store", "Tree structure"], "answer": "LIFO structure"},
+      {"question": "What is object-oriented programming?", "options": ["Scripting", "Functional programming", "Using classes and objects", "Database management"], "answer": "Using classes and objects"},
+      {"question": "What is a primary key in a database?", "options": ["A unique identifier", "A foreign key", "A data type", "A query"], "answer": "A unique identifier"},
+      {"question": "What does JSON stand for?", "options": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Online Notation", "Java Serialized Object Notation"], "answer": "JavaScript Object Notation"},
+      {"question": "What is a closure in programming?", "options": ["A loop", "A function with preserved data", "A class", "A variable"], "answer": "A function with preserved data"}
+    ],
+    "3": [
+      {"question": "What is a JOIN in SQL?", "options": ["A data type", "A constraint", "A command to combine rows", "A loop"], "answer": "A command to combine rows"},
+      {"question": "What is normalization in databases?", "options": ["Query optimization", "Reducing redundancy", "Indexing tables", "Encrypting data"], "answer": "Reducing redundancy"},
+      {"question": "What is a REST API?", "options": ["A database", "A web service architecture", "A programming language", "A file format"], "answer": "A web service architecture"},
+      {"question": "What is the purpose of indexing in databases?", "options": ["Data encryption", "Faster queries", "Data compression", "User authentication"], "answer": "Faster queries"},
+      {"question": "What is a thread in programming?", "options": ["A data structure", "A process", "A unit of execution", "A file"], "answer": "A unit of execution"},
+      {"question": "What is SQL injection?", "options": ["A query optimization", "A security vulnerability", "A database type", "A data type"], "answer": "A security vulnerability"},
+      {"question": "What is a binary search tree?", "options": ["A sorting algorithm", "A data structure", "A database", "A protocol"], "answer": "A data structure"},
+      {"question": "What is the purpose of a foreign key?", "options": ["Unique identification", "Data encryption", "Referential integrity", "Query optimization"], "answer": "Referential integrity"},
+      {"question": "What is a mutex in programming?", "options": ["A loop", "A synchronization primitive", "A data type", "A function"], "answer": "A synchronization primitive"},
+      {"question": "What is the time complexity of a hash table lookup?", "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"], "answer": "O(1)"}
+    ],
+    "4": [
+      {"question": "What is the output of 2 ** 3 in Python?", "options": ["6", "8", "9", "Error"], "answer": "8"},
+      {"question": "What is a decorator in Python?", "options": ["A loop", "A function modifier", "A class", "A variable"], "answer": "A function modifier"},
+      {"question": "What is a microservice architecture?", "options": ["A monolithic app", "Distributed services", "A database design", "A UI framework"], "answer": "Distributed services"},
+      {"question": "What is the purpose of a load balancer?", "options": ["Data storage", "Distribute network traffic", "Code compilation", "User authentication"], "answer": "Distribute network traffic"},
+      {"question": "What is a lambda function in Python?", "options": ["A named function", "An anonymous function", "A class", "A loop"], "answer": "An anonymous function"},
+      {"question": "What is eventual consistency in distributed systems?", "options": ["Immediate data sync", "Delayed data sync", "Data encryption", "Data compression"], "answer": "Delayed data sync"},
+      {"question": "What is a design pattern?", "options": ["A UI design", "A reusable solution", "A database schema", "A programming language"], "answer": "A reusable solution"},
+      {"question": "What is the purpose of Docker?", "options": ["Code compilation", "Containerization", "Database management", "Web hosting"], "answer": "Containerization"},
+      {"question": "What is a singleton pattern?", "options": ["Multiple instances", "Single instance", "A loop", "A function"], "answer": "Single instance"},
+      {"question": "What is CAP theorem in distributed systems?", "options": ["Consistency, Availability, Partition tolerance", "Code, Access, Performance", "Concurrency, Atomicity, Persistence", "Cache, Application, Protocol"], "answer": "Consistency, Availability, Partition tolerance"}
+    ]
+  }
+}
