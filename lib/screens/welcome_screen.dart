@@ -124,67 +124,75 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 40),
                   Row(
-  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-  children: [
-    // Collaborative (left)
-    Column(
-      children: const [
-        Icon(Icons.groups, color: Color(0xFF10B981), size: 32),
-        SizedBox(height: 8),
-        Text(
-          'Collaborative',
-          style: TextStyle(
-              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 16),
-        ),
-        SizedBox(height: 4),
-        Text(
-          'Learn together\nwith friends and mentors',
-          textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.grey, fontSize: 12),
-        ),
-      ],
-    ),
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      // Collaborative (left)
+                      Column(
+                        children: const [
+                          Icon(Icons.groups,
+                              color: Color(0xFF10B981), size: 32),
+                          SizedBox(height: 8),
+                          Text(
+                            'Collaborative',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                fontSize: 16),
+                          ),
+                          SizedBox(height: 4),
+                          Text(
+                            'Learn together\nwith friends and mentors',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: Colors.grey, fontSize: 12),
+                          ),
+                        ],
+                      ),
 
-    // Interactive (center)
-    Column(
-      children: const [
-        Icon(Icons.auto_graph_rounded, color: Color(0xFF10B981), size: 32),
-        SizedBox(height: 8),
-        Text(
-          'Interactive',
-          style: TextStyle(
-              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 16),
-        ),
-        SizedBox(height: 4),
-        Text(
-          'Engaging courses\nand activities',
-          textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.grey, fontSize: 12),
-        ),
-      ],
-    ),
+                      // Interactive (center)
+                      Column(
+                        children: const [
+                          Icon(Icons.auto_graph_rounded,
+                              color: Color(0xFF10B981), size: 32),
+                          SizedBox(height: 8),
+                          Text(
+                            'Interactive',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                fontSize: 16),
+                          ),
+                          SizedBox(height: 4),
+                          Text(
+                            'Engaging courses\nand activities',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: Colors.grey, fontSize: 12),
+                          ),
+                        ],
+                      ),
 
-    // Progressive (right)
-    Column(
-      children: const [
-        Icon(Icons.arrow_forward_rounded, color: Color(0xFF3B82F6), size: 32),
-        SizedBox(height: 8),
-        Text(
-          'Progressive',
-          style: TextStyle(
-              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 16),
-        ),
-        SizedBox(height: 4),
-        Text(
-          'Track your learning\njourney',
-          textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.grey, fontSize: 12),
-        ),
-      ],
-    ),
-  ],
-),
-
+                      // Progressive (right)
+                      Column(
+                        children: const [
+                          Icon(Icons.arrow_forward_rounded,
+                              color: Color(0xFF3B82F6), size: 32),
+                          SizedBox(height: 8),
+                          Text(
+                            'Progressive',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                fontSize: 16),
+                          ),
+                          SizedBox(height: 4),
+                          Text(
+                            'Track your learning\njourney',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: Colors.grey, fontSize: 12),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
