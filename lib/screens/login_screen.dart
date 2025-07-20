@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'dashboard.dart'; // Import the new DashboardScreen
+import 'dashboard.dart';
 
 class LoginScreen extends StatefulWidget {
   final String userType;
