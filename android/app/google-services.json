@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096541213862",
+    "project_id": "adarsh-lms-platform",
+    "storage_bucket": "adarsh-lms-platform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096541213862:android:bdffbd3a2383cc5ae6d067",
+        "android_client_info": {
+          "package_name": "com.example.friends_lms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApYOE5Ni4lHAFt97-rZFMpnA9HDu2ftmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
